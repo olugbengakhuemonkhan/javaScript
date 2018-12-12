@@ -1,0 +1,30 @@
+body{
+    background: url('http://1.bp.blogspot.com/-X87KxLlpToY/TvXLUX2lBsI/AAAAAAAAD68/iyaoh0e0s1I/s1600/christmas-new-year-2012-greetings-04.jpeg') no-repeat center;
+}
+#board{
+    max-width: 640px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.square{
+    background-color: rgb(9, 126, 15);
+    border: 2px solid #000;
+    width: 185px;   
+    height: 185px;
+    outline: none; /* remove the blue line from clicking our squares */
+    font-size: 60px;
+}
+
+
+.square:hover{
+    background-color: rgb(245, 8, 59);
+}
+
+#message{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(239, 245, 239);
+}
+
+
